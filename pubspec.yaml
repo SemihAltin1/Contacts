@@ -1,0 +1,53 @@
+name: contacts
+description: Nexoft Case
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.3+1
+  get: ^4.6.0
+  image_picker: ^1.0.0
+  lazy_load_scrollview: ^1.3.0
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  image_path: "assets/icons/app_icon_bg.png"
+  android: true
+  ios: false
+  background_color : "#f6f6f6"
+  adaptive_icon_background: "assets/icons/app_icon_bg.png"
+  adaptive_icon_foreground: "assets/icons/app_icon_front.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/icons/
+
+  fonts:
+    - family: Nunito Bold
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+    - family: Nunito Medium
+      fonts:
+        - asset: assets/fonts/Nunito-Medium.ttf
